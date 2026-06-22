@@ -1,0 +1,25 @@
+SCREEN_WIDTH = 800
+SCREEN_HEIGHT = 800
+ 
+ROWS = 80
+COLS = 80
+CELL_SIZE = SCREEN_WIDTH // COLS
+ 
+FPS = 10
+ 
+WHITE  = (255, 255, 255)
+BLACK  = (0, 0, 0)
+RED =    (220, 50, 50)
+BLUE   = (50, 100, 220)
+GREEN= (50, 220, 100)
+YELLOW = (220, 200, 50)
+GRAY = (40, 40, 40)
+DARK   = (15, 15,  15)
+ 
+PLAYER_COLORS = [BLUE, RED, GREEN, YELLOW]
+ 
+UP    = (-1, 0)
+DOWN  = (1,  0)
+LEFT  = (0, -1)
+RIGHT = (0,  1)
+ 
